@@ -1,0 +1,13 @@
+//Команди (в psql обв'язково скавити ; після команди!!!!)
+1. psql postgres postgres - (потрібно вводити команду в папці де є psql.exe файл) перевіряє чи встановлений postgres та запитує потым пароль (мій пароль 12345)
+2. \l - показує скільки баз даних є
+3. create database mediumclone - створили нову базу даних з назвою "mediumclone";
+4. \du - показує скільки юзерів є для роботи з базами даних
+5. create user mediumclone with encrypted password '123'; - створили юзера з паролем 123
+6. grant all privileges on database mediumclone to mediumclone; - надали юзеру mediumclone всі права для роботи з базою даних mediumclone
+7. \c mediumclone - приєннуємося до бази даних як користувач postgres
+8. grant all on schema public to mediumclone; - дали користувачу доступ до схеми public
+9. \dt - показує таблиці в базі даних
+10. \d tags - показуэ поля в таблиці tags
+11. INSERT INTO tags (name) VALUES ('dragons') - звичайна SQL команда, в таблицю tags записали нове значення dragons (id генерується автоматично)
+12. SELECT * from tags; - всі записи з таблиці tags
