@@ -13,8 +13,8 @@ This is a REST API for a Medium clone, built with NestJS and PostgreSQL.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/mediumclone_nestjs.git
-cd mediumclone_nestjs
+git clone https://github.com/Olexander96/mediumclone.git
+cd mediumclone
 ```
 
 2. Install dependencies:
